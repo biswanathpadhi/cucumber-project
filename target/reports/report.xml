@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="0.45">
+    <testcase classname="User registration" name="_2" time="0.116">
+        <system-out><![CDATA[Given user is on home page..................................................passed
+And user clicks on pay outstanding amount...................................passed
+Then 110.6 should equal to sum of 100.3 and 10.3............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="User registration" name="_3" time="0.002">
+        <system-out><![CDATA[Given user is on home page..................................................passed
+And user clicks on pay outstanding amount...................................passed
+Then 110 should equal to sum of 100 and 10..................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

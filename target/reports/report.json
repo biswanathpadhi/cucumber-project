@@ -1,0 +1,199 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2022-12-14T13:32:13.016Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3001200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.CucumberHook.setUp()"
+            }
+          }
+        ],
+        "line": 45,
+        "name": "",
+        "description": "",
+        "id": "user-registration;;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1002500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.CucumberHook.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1002000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "user is on home page",
+            "match": {
+              "location": "stepdefinitions.UserRegistrationStepDefinition.user_is_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "user clicks on pay outstanding amount",
+            "match": {
+              "location": "stepdefinitions.UserRegistrationStepDefinition.user_clicks_on_pay_outstanding_amount()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4997600,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "110.6 should equal to sum of 100.3 and 10.3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "110.6",
+                  "offset": 0
+                },
+                {
+                  "val": "100.3",
+                  "offset": 29
+                },
+                {
+                  "val": "10.3",
+                  "offset": 39
+                }
+              ],
+              "location": "stepdefinitions.UserRegistrationStepDefinition.should_equal_to_sum_of_and(java.lang.Double,java.lang.Double,java.lang.Double)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@user"
+          },
+          {
+            "name": "@exampleswithdecimal"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-12-14T13:32:13.163Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.CucumberHook.setUp()"
+            }
+          }
+        ],
+        "line": 46,
+        "name": "",
+        "description": "",
+        "id": "user-registration;;;3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.CucumberHook.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "user is on home page",
+            "match": {
+              "location": "stepdefinitions.UserRegistrationStepDefinition.user_is_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000300,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "user clicks on pay outstanding amount",
+            "match": {
+              "location": "stepdefinitions.UserRegistrationStepDefinition.user_clicks_on_pay_outstanding_amount()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "110 should equal to sum of 100 and 10",
+            "match": {
+              "arguments": [
+                {
+                  "val": "110",
+                  "offset": 0
+                },
+                {
+                  "val": "100",
+                  "offset": 27
+                },
+                {
+                  "val": "10",
+                  "offset": 35
+                }
+              ],
+              "location": "stepdefinitions.UserRegistrationStepDefinition.should_equal_to_sum_of_and(java.lang.Double,java.lang.Double,java.lang.Double)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@user"
+          },
+          {
+            "name": "@exampleswithdecimal"
+          }
+        ]
+      }
+    ],
+    "name": "User registration",
+    "description": "",
+    "id": "user-registration",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/appfeatures/userregistration.feature",
+    "tags": [
+      {
+        "name": "@user",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
